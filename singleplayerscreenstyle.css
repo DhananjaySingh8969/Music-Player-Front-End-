@@ -1,0 +1,480 @@
+
+
+
+
+body{
+   background-color:#0C1027; 
+    /*position: inline-block;*/
+    overflow-x:hidden;
+}
+.main-content{
+	z-index: -2;
+	top:13%;
+	/*width: 55%;*/
+	height:auto;
+	width: 100%;
+	margin-left:18px;
+	margin-top: 20px;
+	position:absolute;
+}
+
+main{
+	width: 62%;
+	height:auto;
+	margin-left:3rem;
+	margin-top: 20px;
+	display:inline-block;
+}
+/*<----------------------------------GENERAL PROPERTY------------------------------>*/
+.text-color-white{
+	color: white;
+}
+.text-color-grey{
+	color: grey;
+}
+.text-size{
+	font-size:1.2rem;
+	font-weight:500;
+}
+.inline-block{
+	display:inline-block;
+}
+.inline{
+	display: inline;
+}
+.margin20px{
+
+}
+.flex{
+	display: flex;
+}
+.border-green{
+	border-style: solid;
+	border-width: 1px;
+	border-color: green;
+}
+.border-red{
+	border-style: solid;
+	border-width: 1px;
+	border-color: red;
+}
+/*<-------------------------------------NAV-BAR-------------------------------------------------------------->*/
+ 
+ .nav-bar{
+ 	margin-top:-8px;
+ 	position: fixed;
+ 	height: 13vh;
+ 	width: 100%;
+ 	z-index: 10;
+ 	background-color: #0C1027; 
+ }
+ .nav-bar-child{
+ 	margin-top:5px;
+ 	position: fixed;
+ 	height: 12vh;
+ 	width: 100%;
+ 	z-index: 10;
+ 	background-color: #0C1027;
+ }
+                /*<--------company-icon------>*/
+
+.company-icon{
+	position: absolute;
+	left: 2%;
+	top: 5%;
+}
+					/*<------------company-name-------->*/
+.company-name{
+	 position: absolute;
+	 top: -2%;
+	 left: 8%;
+}
+#d{
+	 position: absolute;
+     margin-top:7px;
+     margin-left: 13px;
+     margin-right: -2%;
+     margin-bottom: 0%;
+     font-size: 0.8rem;
+     font-weight: 400;
+}
+#p{
+	position: absolute;
+     margin-top:21px;
+     margin-left: 10px;
+     margin-right: -2%;
+     margin-bottom: 0%;
+     font-size: 1.3rem;
+     font-weight: 700;
+}
+					/*<--------favrouite------>*/
+.favourite{
+	position: absolute;
+	left: 	25%;
+	/**top:8%;*/
+}
+
+
+
+                      /*<------search-bar------>*/
+.search-bar
+{
+	
+	position: absolute;
+	right: 15%;
+	top:2%;
+	background-color: #12193E;
+	/*opacity: 0.5;*/
+	/*box-shadow: inset 0px 0px 4px rgba(1,1,1,0.5);*/
+	border-radius: 0.5rem;
+	border:2px solid #0C1027;
+	padding-left: 40px;
+	height: 2rem;
+	width: auto;
+}
+input[type=text]{
+	background-color: inherit;
+	border:none;
+	height: inherit;
+	max-height: 100%;
+	padding: 0;
+	color: white;
+
+}
+.search-icon
+{
+	position:absolute;
+	left: 3px;
+	height: 100%;
+	top:10px;
+	border-radius: inherit;
+}
+.mic-icon
+{
+	position:absolute;
+	right:0px;
+	height: inherit;
+	top:10px;
+	border-radius: inherit;
+}
+.search-icon img
+{
+	
+	height: 60%;
+	width: 60%;
+	text-align: center;
+}
+.mic-icon img
+{
+	
+	height: 60%;
+	width: 60%;
+	text-align: center;
+}
+				/*<------------notification----------->*/
+.notification{
+	      position: absolute;
+	      height:2rem;
+	      width: 2rem;
+	      right: 8%;
+
+}
+.notification img{
+	     
+	      height:100%;
+	      width: 100%;
+}
+                /*<-----------user-profile--------->*/
+.user-profile{
+        position: absolute;
+		height: 2rem;
+		width: 2rem;
+		border-radius: 50%;	
+		top:0px;	
+		right:3%;	
+		background-image: url("images/my-image.jpg");
+		background-size: cover;
+   		background-position: center;
+    	/*background-attachment: fixed;					                    */
+}
+/*--------main section--------*/
+
+main{
+	margin-left: 5%;
+	min-width: 978px;
+	display: inline-block;
+	margin-top: 10%;
+}
+
+/*main artist image*/
+
+#main-header{
+	display: flex;
+}
+
+#artist-image{
+	width: 40%;
+	background-image: url(images/coldplay.jpg);
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	background-origin: fixed;
+	display: inline-block;
+	margin: 0px;
+}
+
+/*main artist description*/
+
+#artist-description{
+	width: 59%;
+	height: 300px;
+	background-color:#0C1027;
+	margin: 0px;
+	display: inline-block;
+}
+
+#artist-description-header{
+	height: 50px;
+	width: 90%;
+	margin-left: 20px;
+	margin-top: 70px;
+	margin-bottom: 10px;
+}
+
+#artist-description-header span:nth-child(2n+1){
+	font-size: 25px;
+	font-weight: 600;
+	color: white;
+}
+
+#artist-description-header span:nth-child(2n){
+	font-size: 15px;
+	font-weight: 300;
+	color: white;
+}
+
+#artist-description-text{
+	width: 520px;
+	height: 60px;
+	margin-left: 20px;
+}
+
+#artist-description-text span{
+	font-size: 14px;
+	font-weight: 300;
+	color: white;
+}
+
+.button-edit{
+	width: 25%;
+	height: 2rem;
+	margin-left: 20px;
+	margin-top: 20px;
+	 color: white;
+	 text-align: center;
+	 font-size: 16px;
+	background-image: linear-gradient(to right, blue,purple);
+}
+/*similar songs*/
+
+#similar-songs{
+	width: 100%;
+	height: 400px;
+	margin: 0px;
+}
+
+#similar-songs ul{
+	list-style: none;
+}
+
+.similar-songs-li{
+	height: 100px;
+	width: 104.5%;
+	background-color: #12193E;
+	margin-bottom: 5px;
+	margin-left: -40px;
+}
+
+.queue-item{
+	height: 100%;
+	width: 100%;
+}
+
+.queue-item > div{
+	height: 100%;
+	width: 100px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+
+.queue-item-img-container img{
+	height: 100%;
+	width: 100%;
+}
+
+.queue-item-description2{
+	height: 70%;
+	width: 100%;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.queue-item-description span:nth-child(2n+1){
+	
+	font-size: 25px;
+	font-weight: 600;
+	color: white;
+}
+
+.queue-item-description span:nth-child(2n){
+	font-size: 15px;
+	font-weight: 300;
+	color: white;
+}
+
+
+.favourites-tag-container span{
+	font-size: 15px;
+	font-weight: 300;
+	color: white;
+}
+
+#favourites-tag-container-heart{
+	font-size: 25px;
+	 color: white;
+	 margin-top: 25px;
+	 display: inline-block;
+}
+
+#favourites-tag-container-plus{
+	font-size: 25px;
+	 color: white;
+	 margin-top: 25px;
+	 display: inline-block;
+	 margin-left: 20px;
+}
+
+
+/*-------aside section--------*/
+
+aside{
+	width: 22%;
+	margin-left: 2%;
+	display: inline-block;
+	vertical-align: top; 
+	position: fixed;
+	margin-top: 8%;
+}
+
+/*aside section disappears in smaller screens*/
+
+@media screen and (max-width: 1000px) {
+  aside{ display: none; }
+}
+
+
+section{
+	width: 100%;
+}
+
+.section-heading{
+	 width: auto;
+    padding-top: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.section-heading span {
+    font-size: 23px;
+    color: white;
+    font-weight: 900;
+}
+
+
+
+
+
+
+/*similar artists*/
+
+#similar-artists-part ul{
+	list-style: none;
+}
+
+.similar-artists-item{
+	height: 100px;
+	width: 100%;
+	margin-bottom: 5px;
+	margin-left: -30px;
+}
+
+.similar-artists-item div{
+	display: inline-block;
+	margin-right: 5px;
+}
+
+
+.similar-artists-item-img{
+	height: 100%;
+	width: 30%;
+}
+
+.similar-artists-item-img img{
+	height: 100%;
+	width: 100%;
+}
+
+.similar-artists-item-des{
+	height: 100%;
+	width: 50%;
+}
+
+.similar-artists-item-des span{
+	font-size: 25px;
+	font-weight: 300;
+	color: white;
+}
+
+/*recently played songs*/
+
+#recently-played-songs ol{
+	list-style-type: decimal-leading-zero;
+	color: lightgrey;
+	font-size: 20px;
+}
+
+#recently-played-songs ol li{
+	margin-bottom: 5px;
+}
+
+.recently-played-songs-item{
+	height: 100%;
+	width: 100%;
+}
+
+.recently-played-songs-item > div{
+	height: 100%;
+	width: 45px;
+	margin-left: 5px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.recently-played-songs-item-img-container img{
+	height: 100%;
+	width: 100%;
+}
+
+.recently-played-songs-item-description span:nth-child(2n+1){
+	font-size: 25px;
+	font-weight: 600;
+	color: white;
+}
+
+.recently-played-songs-item-description span:nth-child(2n){
+	font-size: 15px;
+	font-weight: 300;
+	color: white;
+}
